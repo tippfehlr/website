@@ -1,0 +1,66 @@
+:root {
+  --mantle: #1e2030;
+  --text: #cad3f5;
+  --teal: #8bd5ca;
+  --sapphire: #7dc4e4;
+  --peach: #f5a97f;
+  --mauve: #c6a0f6;
+}
+
+body {
+  background: var(--mantle);
+  color: var(--text);
+  font-family: monospace;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(65ch, 95vw);
+}
+
+a {
+  color: var(--sapphire);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--peach);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  color: var(--text);
+  content: "- ";
+  font-weight: bold;
+}
+
+li {
+  margin-top: 0.25em;
+  margin-bottom: 0.25;
+}
+
+b {
+  color: var(--teal);
+}
+
+.dud {
+  color: #8b8b8b;
+}
+
+.icon {
+  height: 1em;
+}
+
+.footer {
+  margin-top 2em;
+  font-size: smaller;
+}
