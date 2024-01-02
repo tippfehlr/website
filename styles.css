@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Noto+Serif:wght@500&display=swap');
+
 :root {
   --mantle: #1e2030;
   --text: #cad3f5;
@@ -11,7 +13,8 @@
 body {
   background: var(--mantle);
   color: var(--text);
-  font-family: monospace;
+  font-family: 'Fira Code';
+  font-size: 13px
 }
 .container {
   position: absolute;
@@ -61,7 +64,20 @@ b {
   height: 1em;
 }
 
+.quote {
+  color: var(--mauve);
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+}
+
+.quote-author {
+  color: var(--subtext0);
+  font-family: 'Noto Serif', serif;
+  font-size: 11px;
+  padding-left: 4.5em;
+}
+
 .footer {
   margin-top 2em;
-  font-size: smaller;
+  font-size: 10px;
 }
