@@ -30,7 +30,13 @@ scramble(header, 1200);
 const project_mappings = {
   "activity-roles": '<a href="https://github.com/tippfehlr/activity-roles">Activity Roles</a>',
   "website": '<a href="https://github.com/tippfehlr/website">this website</a>',
-  "wrestic": '<a href="https://github.com/alvaro17f/wrestic"wrestic</a',
+  "wrestic": '<a href="https://github.com/alvaro17f/wrestic">wrestic</a> (<a href="https://aur.archlinux.org/packages/wrestic">AUR</a>)',
+  "avr-hal": '<a href="https://github.com/Rahix/avr-hal">avr-hal</a>',
+  "radicle-cli-bin": '<a href="https://aur.archlinux.org/packages/radicle-cli-bin">radicle-cli-bin (AUR)</a>',
+  "radicle-node-bin": '<a href="https://aur.archlinux.org/packages/radicle-node-bin">radicle-node-bin (AUR)</a>',
+  "radicle-httpd-bin": '<a href="https://aur.archlinux.org/packages/radicle-httpd-bin">radicle-httpd-bin (AUR)</a>',
+  "mcman": '<a href="https://github.com/ParadigmMC/mcman">mcman</a>',
+  "epd-waveshare": '<a href="https://github.com/caemor/epd-waveshare">epd-waveshare</a>',
 };
 
 const url = "https://wakapi.tippfehlr.dev/api/v1/users/tippfehlr/stats";
