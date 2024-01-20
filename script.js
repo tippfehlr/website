@@ -19,14 +19,13 @@ function scramble(el, time, originalText = "") {
     }
     el.innerHTML = chars.join("");
     requestAnimationFrame(inner);
-  }
+  };
   requestAnimationFrame(inner);
 }
-let el = document.querySelector(".name");
-let text = el.innerText;
-let itv = setInterval(() => scramble(el, 1200, text), 5000);
-scramble(el, 1200);
 
+let header = document.querySelector(".name");
+setInterval(() => scramble(header, 1200, header.innerHTML), 8096);
+scramble(header, 1200);
 
 const url = `https://wakapi.tippfehlr.dev/api/v1/users/tippfehlr/stats?is_including_today=true`;
 let wakapi = document.querySelector(".wakapi");
