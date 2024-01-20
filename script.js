@@ -46,7 +46,9 @@ fetch(url)
   .then(data => {
     data = data.data;
     const time = data.human_readable_total;
-    const range = data.human_readable_range.toLowerCase();
+    // const range = data.human_readable_range.toLowerCase();
+    // compare the start and end time
+    const range = `last ${((new Date(data.end) - new Date(data.start)) / 1000 / 60 / 60 / 24).toFixed(0)} days`;
     const topLang = data.languages[0].name;
     const topLang2 = data.languages[1].name;
     const topLang3 = data.languages[2].name;
