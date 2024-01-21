@@ -37,6 +37,7 @@ const project_mappings = {
   "radicle-httpd-bin": '<a href="https://aur.archlinux.org/packages/radicle-httpd-bin">radicle-httpd-bin (AUR)</a>',
   "mcman": '<a href="https://github.com/ParadigmMC/mcman">mcman</a>',
   "epd-waveshare": '<a href="https://github.com/caemor/epd-waveshare">epd-waveshare</a>',
+  "switch-lamps": '<a href="https://github.com/tippfehlr/switch-lamps">switch-lamps</a>',
 };
 
 const url = "https://wakapi.tippfehlr.dev/api/v1/users/tippfehlr/stats";
