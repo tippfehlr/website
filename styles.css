@@ -60,6 +60,14 @@ b {
   color: #8b8b8b;
 }
 
+.visible-on-hover {
+  color: var(--mantle)
+}
+
+.visible-on-hover:hover {
+  color: var(--text)
+}
+
 .icon {
   height: 1em;
 }
