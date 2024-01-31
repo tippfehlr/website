@@ -22,6 +22,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: min(65ch, 95vw);
+  min-width: 350px;
 }
 
 a {
