@@ -14,13 +14,16 @@ body {
   background: var(--mantle);
   color: var(--text);
   font-family: 'Fira Code';
-  font-size: 13px
+  font-size: 13px;
 }
+
 .container {
+  margin: 20px auto;
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  // top: 50%;
+  // transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   width: min(65ch, 95vw);
   min-width: 350px;
 }
