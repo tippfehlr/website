@@ -12,6 +12,20 @@
   <script defer data-domain="tippfehlr" src="https://plausible.tippfehlr.dev/js/script.js"></script>
 </head>
 
+<?php
+$url = "https://wakapi.tippfehlr.dev/api/v1/users/tippfehlr/stats";
+$json = file_get_contents($url);
+$data = json_decode($json)->data;
+
+$totalTime = $data->human_readable_total;
+$topLang1 = $data->languages[0]->name;
+$topLang2 = $data->languages[1]->name;
+$topProject1 = $data->projects[0]->name;
+$topProject2 = $data->projects[1]->name;
+$topEditor = $data->editors[0]->name;
+
+?>
+
 <body>
   <main class="container">
     <h3 class="name">Hey there, stranger 👋</h3>
@@ -34,11 +48,11 @@
       <li>@tippfehlr:matrix.org</li>
     </ul>
 
-    <b class="wakapi">Coding stats for the {{range}}:</b>
+    <b class="wakapi">Coding stats for the last 30 days:</b>
     <ul>
-      <li class="wakapi">Time: {{time}}</li>
-      <li class="wakapi">Top projects: {{topProject}} && {{topProject2}}</li>
-      <li class="wakapi">Top languages: {{topLang}} && {{topLang2}}</li>
+      <li class="wakapi">Time: <?php echo $totalTime; ?></li>
+      <li class="wakapi">Top projects: <?php echo $topProject1; ?> && <?php echo $topProject2; ?></li>
+      <li class="wakapi">Top languages: <?php echo $topLang1; ?> && <?php echo $topLang2; ?></li>
     </ul>
 
     <b>Setup</b>:
@@ -46,7 +60,7 @@
       <li>OS: Arch Linux</li>
       <li>DE: KDE Plasma</li>
       <li>Shell: fish with <a href="https://starship.rs">Starship</a></li>
-      <li class="wakapi">Editor: {{topEditor}}</li>
+      <li class="wakapi">Editor: <?php echo $topEditor; ?></li>
     </ul>
 
     <b>Other awesome things I use:</b>
