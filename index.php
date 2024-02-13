@@ -48,11 +48,11 @@ $topEditor = $data->editors[0]->name;
       <li>@tippfehlr:matrix.org</li>
     </ul>
 
-    <b class="wakapi">Coding stats for the last 30 days:</b>
+    <b>Coding stats for the last 30 days:</b>
     <ul>
-      <li class="wakapi">Time: <?php echo $totalTime; ?></li>
-      <li class="wakapi">Top projects: <?php echo $topProject1; ?> && <?php echo $topProject2; ?></li>
-      <li class="wakapi">Top languages: <?php echo $topLang1; ?> && <?php echo $topLang2; ?></li>
+      <li>Time: <?php echo $totalTime; ?></li>
+      <li>Top projects: <?php echo $topProject1; ?> && <?php echo $topProject2; ?></li>
+      <li>Top languages: <?php echo $topLang1; ?> && <?php echo $topLang2; ?></li>
     </ul>
 
     <b>Setup</b>:
@@ -60,7 +60,7 @@ $topEditor = $data->editors[0]->name;
       <li>OS: Arch Linux</li>
       <li>DE: KDE Plasma</li>
       <li>Shell: fish with <a href="https://starship.rs">Starship</a></li>
-      <li class="wakapi">Editor: <?php echo $topEditor; ?></li>
+      <li>Editor: <?php echo $topEditor; ?></li>
     </ul>
 
     <b>Other awesome things I use:</b>
