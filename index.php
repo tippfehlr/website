@@ -98,6 +98,7 @@ $topEditor = $data->editors[0]->name;
       Website stolen with permission™ from
       <a href="https://bain.cz">bain.cz</a>.
       // <a href="https://github.com/tippfehlr/website">GitHub</a>
+      // <a href="https://plausible.tippfehlr.dev/tippfehlr">site analytics</a>
     </p>
   </main>
 </body>
