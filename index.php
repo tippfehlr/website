@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="website of tippfehlr :)" />
   <link rel="stylesheet" href="styles.css" />
-  <script src="script.js" defer></script>
+  <!-- <script src="script.js" defer></script> -->
   <script defer data-domain="tippfehlr" src="https://plausible.tippfehlr.dev/js/script.js"></script>
 </head>
 
