@@ -84,17 +84,17 @@ $topEditor = $data->editors[0]->name;
         <br>  A switch for all my lamps 🛋️
       </li>
       <li>
+        <a href="https://github.com/tippfehlr/composehook">composehook</a>
+        <img class="icon" src="img/rust.svg">
+        <br>  Webhooks to update docker compose services.
+        <br>  Configured with labels.
+      </li>
+      <li>
         <a href="https://github.com/tippfehlr/wumpus-webhook">wumpus-webhook</a>
         <img class="icon" src="img/rust.svg">
         <br>  Simple webserver to translate Wumpus.store webhooks into
-        <br>  Discord webhooks (actix-web).
+        <br>  Discord webhooks.
       </li>
-      <li>
-        <a href="https://github.com/tippfehlr/wumpus-webhook-axum">wumpus-webhook-axum</a>
-        <img class="icon" src="img/rust.svg">
-        <br>  The above, but with axum for learing purposes.
-      </li>
-      <li>more to come …</li>
     </ul>
 
     <p style="text-align: center">
