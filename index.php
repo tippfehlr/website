@@ -65,14 +65,15 @@ $topEditor = $data->editors[0]->name;
       <li>OS: Arch Linux</li>
       <li>DE: KDE Plasma</li>
       <li>Shell: fish with <a href="https://starship.rs">Starship</a></li>
-      <li>Editor: <?php echo $topEditor; ?></li>
+      <li>Editor: <?php echo $topEditor; ?> in tmux</li>
+      <li>Mail: aerc (with isync and msmtp)</li>
     </ul>
 
     <b>Other awesome things I use:</b>
     <ul>
       <li><a href="https://github.com/jesseduffield/lazygit">lazygit</a> - my go-to git tui</li>
       <li><a href="https://github.com/zyedidia/micro">micro</a> - nano but (way) better</li>
-      <li><a href="https://github.com/thelocehiliosan/yadm">yadm</a> - my favourite dotfiles manager</li>
+      <li><a href="https://github.com/thelocehiliosan/yadm">yadm</a> - my dotfiles manager</li>
     </ul>
 
     <b>My projects</b>:
