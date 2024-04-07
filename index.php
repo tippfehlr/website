@@ -40,13 +40,15 @@ $topEditor = $data->editors[0]->name;
     </p>
     <p>I also maintain a few packages in the <a href="https://aur.archlinux.org/packages?K=tippfehlr&SeB=m">AUR</a>.</p>
 
+    <b>PGP key:</b>
+    <a style="text-align: center;" href="https://keys.openpgp.org/vks/v1/by-fingerprint/1AB6C278FF41229BCF747B2C8DFDB575B0538C5D">1AB6 C278 FF41 229B CF74  7B2C 8DFD B575 B053 8C5D</a>
+
     <b>Me</b>:
     <ul>
       <li>tippfehlr at tippfehlr dot eu <span class="visible-on-hover">(spam, sorry)</span> </li>
       <li><a href="https://github.com/tippfehlr">github.com/tippfehlr</a></li>
       <li><a rel="me" href="https://fosstodon.org/@tippfehlr">@tippfehlr@fosstodon.org</a></li>
       <li>@tippfehlr:matrix.org</li>
-      <li>PGP key: <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/1AB6C278FF41229BCF747B2C8DFDB575B0538C5D">1AB6 C278 FF41 229B CF74  7B2C 8DFD B575 B053 8C5D</a></li>
     </ul>
 
     <b>Coding stats for the last 30 days:</b>
