@@ -82,7 +82,7 @@ $topEditor = $data->editors[0]->name;
         <a href="https://github.com/tippfehlr/activity-roles">Activity Roles</a>
         <img class="icon" src="img/typescript.svg">
         <br>  Discord bot to assign roles on presence events.
-        <br>  400+ guilds.
+        <br>  500+ guilds.
       </li>
       <li>
         <a href="https://github.com/tippfehlr/switch-lamps">switch-lamps (WIP)</a>
