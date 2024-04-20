@@ -1,4 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Noto+Serif:wght@500&display=swap');
+@font-face {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 400;
+  src: /* local("Fira Code")  */ url("../fonts/fira-code-v22-latin-regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 700;
+  src: /* local("Fira Code")  */ url("../fonts/fira-code-v22-latin-700.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 500;
+  src: /* local("Noto Serif")  */ url("../fonts/noto-serif-v23-latin-500.woff2")
+    format("woff2");
+}
 
 :root {
   --mantle: #1e2030;
@@ -13,7 +35,7 @@
 body {
   background: var(--mantle);
   color: var(--text);
-  font-family: 'Fira Code';
+  font-family: "Fira Code";
   font-size: 13px;
 }
 
@@ -21,8 +43,8 @@ body {
   margin: 20px auto;
   position: absolute;
   left: 50%;
-  // top: 50%;
-  // transform: translate(-50%, -50%);
+  /* top: 50%; */
+  /* transform: translate(-50%, -50%); */
   transform: translateX(-50%);
   width: min(65ch, 95vw);
   min-width: 350px;
@@ -37,7 +59,12 @@ a:hover {
   color: var(--peach);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
 }
 
@@ -65,11 +92,11 @@ b {
 }
 
 .visible-on-hover {
-  color: var(--mantle)
+  color: var(--mantle);
 }
 
 .visible-on-hover:hover {
-  color: var(--text)
+  color: var(--text);
 }
 
 .icon {
@@ -78,18 +105,18 @@ b {
 
 .quote {
   color: var(--mauve);
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-size: 18px;
 }
 
 .quote-author {
   color: var(--subtext0);
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-size: 11px;
   padding-left: 4.5em;
 }
 
 .footer {
-  margin-top 2em;
+  margin-top: 2em;
   font-size: 10px;
 }
