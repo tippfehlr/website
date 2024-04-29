@@ -33,12 +33,7 @@ $topEditor = $data->editors[0]->name;
       I’m <span style="color: var(--mauve)">tippfehlr</span>, a teenager from Germany. I like many things, but
       especially computers and music.
     </p>
-    <p>
-      When coding, I try to focus on correctness and style.<br>
-      I especially like languages like Rust and try to stay away from Python,
-      (pure) Javascript and other dynamically-typed languages.
-    </p>
-    <p>I also maintain a few packages in the <a href="https://aur.archlinux.org/packages?K=tippfehlr&SeB=m">AUR</a>.</p>
+    <p>I maintain a few packages in the <a href="https://aur.archlinux.org/packages?K=tippfehlr&SeB=m">AUR</a>.</p>
 
     <b>Me</b>:
     <ul>
