@@ -41,7 +41,7 @@ $topEditor = $data->editors[0]->name;
       <li><a href="https://github.com/tippfehlr">github.com/tippfehlr</a></li>
       <li><a href="https://gitlab.com/tippfehlr">gitlab.com/tippfehlr</a></li>
       <li><a rel="me" href="https://fosstodon.org/@tippfehlr">@tippfehlr@fosstodon.org</a></li>
-      <li>@tippfehlr:matrix.org</li>
+      <li><a href="https://matrix.to/#/@tippfehlr:matrix.org">@tippfehlr:matrix.org</a></li>
     </ul>
 
     <b>PGP key:</b>
