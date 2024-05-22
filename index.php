@@ -38,10 +38,10 @@ $topEditor = $data->editors[0]->name;
     <b>Me</b>:
     <ul>
       <li>tippfehlr at tippfehlr dot eu <span class="visible-on-hover">(spam, sorry)</span> </li>
-      <li><a href="https://github.com/tippfehlr">github.com/tippfehlr</a></li>
-      <li><a href="https://gitlab.com/tippfehlr">gitlab.com/tippfehlr</a></li>
+      <li><a rel="me" href="https://github.com/tippfehlr">github.com/tippfehlr</a></li>
+      <li><a rel="me" href="https://codeberg.org/tippfehlr">codeberg.org/tippfehlr</a></li>
       <li><a rel="me" href="https://elk.zone/@tippfehlr@fosstodon.org">@tippfehlr@fosstodon.org</a></li>
-      <li><a href="https://matrix.to/#/@tippfehlr:matrix.org">@tippfehlr:matrix.org</a></li>
+      <li><a rel="me" href="https://matrix.to/#/@tippfehlr:matrix.org">@tippfehlr:matrix.org</a></li>
     </ul>
 
     <b>PGP key:</b>
