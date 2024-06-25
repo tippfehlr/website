@@ -35,12 +35,12 @@ $topEditor = $data->editors[0]->name;
     </p>
     <p>I maintain a few packages in the <a href="https://aur.archlinux.org/packages?K=tippfehlr&SeB=m">AUR</a>.</p>
 
-    <b>Me</b>:
+    <b>Me:</b>
     <ul>
       <li>tippfehlr at tippfehlr dot eu <span class="visible-on-hover">(spam, sorry)</span> </li>
       <li><a rel="me" href="https://github.com/tippfehlr">github.com/tippfehlr</a></li>
       <li><a rel="me" href="https://codeberg.org/tippfehlr">codeberg.org/tippfehlr</a></li>
-      <li><a rel="me" href="https://elk.zone/@tippfehlr@fosstodon.org">@tippfehlr@fosstodon.org</a></li>
+      <li><a rel="me" href="https://fosstodon.org/@tippfehlr">@tippfehlr@fosstodon.org</a></li>
       <li><a rel="me" href="https://matrix.to/#/@tippfehlr:matrix.org">@tippfehlr:matrix.org</a></li>
     </ul>
 
@@ -56,12 +56,12 @@ $topEditor = $data->editors[0]->name;
       <li>Top languages: <?php echo $topLang1; ?> && <?php echo $topLang2; ?></li>
     </ul>
 
-    <b>Setup</b>:
+    <b>Setup:</b>
     <ul>
       <li>OS: Arch Linux</li>
       <li>DE: KDE Plasma</li>
       <li>Shell: fish with <a href="https://starship.rs">Starship</a></li>
-      <li>Editor: <?php echo $topEditor; ?> in tmux</li>
+      <li>Editor: <?php echo $topEditor; ?></li>
       <li>Mail: aerc (with isync and msmtp)</li>
     </ul>
 
@@ -72,7 +72,7 @@ $topEditor = $data->editors[0]->name;
       <li><a href="https://github.com/thelocehiliosan/yadm">yadm</a> - my dotfiles manager</li>
     </ul>
 
-    <b>My projects</b>:
+    <b>My projects:</b>
     <ul>
       <li>
         <a href="https://github.com/tippfehlr/activity-roles">Activity Roles</a>
@@ -81,7 +81,7 @@ $topEditor = $data->editors[0]->name;
         <br>  500+ guilds.
       </li>
       <li>
-        <a href="https://github.com/tippfehlr/switch-lamps">switch-lamps (WIP)</a>
+        <a href="https://codeberg.org/tippfehlr/switch-lamps">switch-lamps (WIP)</a>
         <img class="icon" src="img/rust.svg">
         <br>  A switch for all my lamps 🛋️
       </li>
@@ -109,8 +109,8 @@ $topEditor = $data->editors[0]->name;
 
     <p class="footer">
       Website stolen with permission™ from
-      <a href="https://bain.cz">bain.cz</a>.
-      // <a href="https://github.com/tippfehlr/website">GitHub</a>
+      <a href="https://bain.cz">bain.cz</a>
+      // <a href="https://github.com/tippfehlr/website">source code</a>
       // <a href="https://plausible.tippfehlr.dev/tippfehlr">site analytics</a>
     </p>
   </main>
