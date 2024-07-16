@@ -62,7 +62,6 @@ $topEditor = $data->editors[0]->name;
       <li>DE: KDE Plasma</li>
       <li>Shell: fish with <a href="https://starship.rs">Starship</a></li>
       <li>Editor: <?php echo $topEditor; ?></li>
-      <li>Mail: aerc (with isync and msmtp)</li>
     </ul>
 
     <b>Other awesome things I use:</b>
