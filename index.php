@@ -23,7 +23,6 @@ $topLang2 = $data->languages[1]->name;
 $topProject1 = $data->projects[0]->name;
 $topProject2 = $data->projects[1]->name;
 $topEditor = $data->editors[0]->name;
-
 ?>
 
 <body>
@@ -31,18 +30,23 @@ $topEditor = $data->editors[0]->name;
     <h3 class="name">Hey there, stranger 👋</h3>
     <p>
       I’m <span style="color: var(--mauve)">tippfehlr</span>, a teenager from Germany. I like many things, but
-      especially computers and music.
+      especially computers, (classical) music and good stories, often found in books. Oh, and dragons.
     </p>
-    <p>I maintain a few packages in the <a href="https://aur.archlinux.org/packages?K=tippfehlr&SeB=m">AUR</a>.</p>
+    <p>I maintain a few packages in the <a href="https://aur.archlinux.org/packages?O=0&SeB=M&K=tippfehlr&outdated=&SB=p&SO=d&PP=50&submit=Go">AUR</a>.</p>
 
-    <b>Me:</b>
+    <b>Contact:</b>
     <ul>
       <li>tippfehlr at tippfehlr dot eu <span class="visible-on-hover">(spam, sorry)</span> </li>
-      <li><a rel="me" href="https://github.com/tippfehlr">github.com/tippfehlr</a></li>
-      <li><a rel="me" href="https://codeberg.org/tippfehlr">codeberg.org/tippfehlr</a></li>
       <li><a rel="me" href="https://fosstodon.org/@tippfehlr">@tippfehlr@fosstodon.org</a></li>
       <li><a rel="me" href="https://matrix.to/#/@tippfehlr:matrix.org">@tippfehlr:matrix.org</a></li>
     </ul>
+  
+    <b>Git:</b>
+    <ul>
+      <li><a rel="me" href="https://github.com/tippfehlr">github.com/tippfehlr</a></li>
+      <li><a rel="me" href="https://codeberg.org/tippfehlr">codeberg.org/tippfehlr</a></li>
+    </ul>
+    
 
     <b>PGP key:</b>
     <p style="text-align: center;">
@@ -68,34 +72,6 @@ $topEditor = $data->editors[0]->name;
     <ul>
       <li><a href="https://github.com/jesseduffield/lazygit">lazygit</a> - my go-to git tui</li>
       <li><a href="https://github.com/zyedidia/micro">micro</a> - nano but (way) better</li>
-      <li><a href="https://github.com/thelocehiliosan/yadm">yadm</a> - my dotfiles manager</li>
-    </ul>
-
-    <b>My projects:</b>
-    <ul>
-      <li>
-        <a href="https://github.com/tippfehlr/activity-roles">Activity Roles</a>
-        <img class="icon" src="img/typescript.svg">
-        <br>  Discord bot to assign roles on presence events.
-        <br>  500+ guilds.
-      </li>
-      <li>
-        <a href="https://codeberg.org/tippfehlr/switch-lamps">switch-lamps (WIP)</a>
-        <img class="icon" src="img/rust.svg">
-        <br>  A switch for all my lamps 🛋️
-      </li>
-      <li>
-        <a href="https://github.com/tippfehlr/composehook">composehook</a>
-        <img class="icon" src="img/rust.svg">
-        <br>  Webhooks to update docker compose services.
-        <br>  Configured with labels.
-      </li>
-      <li>
-        <a href="https://github.com/tippfehlr/wumpus-webhook">wumpus-webhook</a>
-        <img class="icon" src="img/rust.svg">
-        <br>  Simple webserver to translate Wumpus.store webhooks into
-        <br>  Discord webhooks.
-      </li>
     </ul>
 
     <p style="text-align: center">
@@ -103,7 +79,6 @@ $topEditor = $data->editors[0]->name;
       <span class="quote-author">
         — Christopher Paolini, Inheritance
       </span>
-      <!-- yes, I also like books :) -->
     </p>
 
     <p class="footer">
