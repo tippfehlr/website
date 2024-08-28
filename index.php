@@ -29,7 +29,7 @@ $topEditor = $data->editors[0]->name;
   <main class="container">
     <h3 class="name">Hey there, stranger 👋</h3>
     <p>
-      I’m <span style="color: var(--mauve)">tippfehlr</span>, a teenager from Germany. I like many things, but
+      I’m <span style="color: var(--mauve)">tippfehlr</span>, a student from Germany. I like many things, but
       especially computers, (classical) music and good stories, often found in books. Oh, and dragons.
     </p>
     <p>I maintain a few packages in the <a href="https://aur.archlinux.org/packages?O=0&SeB=M&K=tippfehlr&outdated=&SB=p&SO=d&PP=50&submit=Go">AUR</a>.</p>
@@ -40,13 +40,12 @@ $topEditor = $data->editors[0]->name;
       <li><a rel="me" href="https://fosstodon.org/@tippfehlr">@tippfehlr@fosstodon.org</a></li>
       <li><a rel="me" href="https://matrix.to/#/@tippfehlr:matrix.org">@tippfehlr:matrix.org</a></li>
     </ul>
-  
+
     <b>Git:</b>
     <ul>
       <li><a rel="me" href="https://github.com/tippfehlr">github.com/tippfehlr</a></li>
       <li><a rel="me" href="https://codeberg.org/tippfehlr">codeberg.org/tippfehlr</a></li>
     </ul>
-    
 
     <b>PGP key:</b>
     <p style="text-align: center;">
