@@ -32,7 +32,10 @@ $topEditor = $data->editors[0]->name;
       I’m <span style="color: var(--mauve)">tippfehlr</span>, a student from Germany. I like many things, but
       especially computers, (classical) music and good stories, often found in books. Oh, and dragons.
     </p>
-    <p>I maintain a few packages in the <a href="https://aur.archlinux.org/packages?O=0&SeB=M&K=tippfehlr&outdated=&SB=p&SO=d&PP=50&submit=Go">AUR</a>.</p>
+    <p>
+      I maintain a few packages in the <a href="https://aur.archlinux.org/packages?O=0&SeB=M&K=tippfehlr&outdated=&SB=p&SO=d&PP=50&submit=Go">AUR</a>.
+      If you want to co-maintain any of my packages, ask!
+    </p>
 
     <b>Contact:</b>
     <ul>
